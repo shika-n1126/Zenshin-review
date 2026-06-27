@@ -986,14 +986,28 @@ h3.heading__ja {
   position: fixed;
   right: 17px;
   bottom: 17px;
-  // width: min(calc(50 / 375 * 100%), 50px);
-  width: auto;
-  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border-radius: 32px;
+  background-color: #06c755;
+  box-shadow:
+    0 4px 20px 0 rgba(6, 199, 85, 0.4),
+    0 2px 10px 0 rgba(0, 0, 0, 0.14);
+  color: #fff;
+
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
+
   transition:
     opacity 0.3s,
-    visibility 0.3s;
+    visibility 0.3s,
+    box-shadow 0.3s,
+    background-color 0.3s,
+    transform 0.3s;
 
   @include mq(pc) {
     right: 34px;
@@ -1006,31 +1020,7 @@ h3.heading__ja {
     pointer-events: auto;
   }
 
-  img {
-  }
-}
-
-.line-register__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 11px 16px;
-  border-radius: 32px;
-  background: #06c755;
-  box-shadow:
-    0 4px 20px 0 rgba(6, 199, 85, 0.4),
-    0 2px 10px 0 rgba(0, 0, 0, 0.14);
-  color: #fff;
-
-  transition:
-    box-shadow 0.3s,
-    background-color 0.3s,
-    color 0.3s;
-
   &:hover {
-    border-radius: 32px;
-    background: var(--color-spring-green-40, #06c755);
     box-shadow:
       0 10px 32px 0 rgba(6, 199, 85, 0.48),
       0 4px 14px 0 rgba(0, 0, 0, 0.16);
