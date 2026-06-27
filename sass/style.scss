@@ -104,9 +104,6 @@ body {
   }
 }
 
-.header__nav {
-}
-
 .header__button {
   display: inline-block;
   letter-spacing: 1.28px;
@@ -173,9 +170,6 @@ h3.heading__ja {
   }
 }
 
-.mv__inner {
-}
-
 .mv__content {
   display: flex;
   flex-direction: column;
@@ -213,12 +207,6 @@ h3.heading__ja {
   }
 }
 
-.mv__lead2 {
-}
-
-.mv__lead3 {
-}
-
 .mv__discription {
   text-align: center;
   margin-top: 20px;
@@ -245,9 +233,6 @@ h3.heading__ja {
     box-shadow: 0 8px 28px 0 rgba(6, 199, 85, 0.4);
     transform: translateY(-2px);
   }
-
-  a {
-  }
 }
 
 .foryou {
@@ -273,9 +258,6 @@ h3.heading__ja {
       var(--color-spring-green-790, rgba(185, 216, 203, 0)) 40%
     ),
     var(--color-grey-96, #f9f6f2);
-}
-
-.foryou__inner {
 }
 
 .foryou__cards {
@@ -353,15 +335,6 @@ h3.heading__ja {
     font-size: 16px;
     padding: 40px 24px;
   }
-}
-
-.about {
-}
-
-.about__inner {
-}
-
-.about__content {
 }
 
 .about__message {
@@ -452,9 +425,6 @@ h3.heading__ja {
 
 .service {
   background: #e8f3ee;
-}
-
-.service__inner {
 }
 
 .service__card {
@@ -588,9 +558,6 @@ h3.heading__ja {
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.trialsession__inner {
-}
-
 .heading__en2 {
   color: rgba(255, 255, 255, 0.65);
   font-size: 15px;
@@ -652,9 +619,6 @@ h3.heading__ja {
   background: #f9f6f2;
 }
 
-.voice__inner {
-}
-
 .voice__cards {
   display: flex;
   flex-direction: column;
@@ -688,12 +652,6 @@ h3.heading__ja {
   }
 }
 
-.voice-card__text {
-}
-
-.voice-card__age {
-}
-
 .voice-card__occupation {
   font-size: 11px;
 }
@@ -703,9 +661,6 @@ h3.heading__ja {
   padding-left: 16px;
   border-left: 2px solid #9dc4b4;
   font-kerning: normal;
-}
-
-.profile {
 }
 
 .profile__inner {
@@ -724,9 +679,6 @@ h3.heading__ja {
   @include mq(pc) {
     margin-top: 68px;
   }
-}
-
-.profile__main {
 }
 
 .profile__image {
@@ -808,9 +760,6 @@ h3.heading__ja {
   letter-spacing: 1.44px;
 }
 
-.profile__card-text {
-}
-
 .contact {
   background:
     radial-gradient(
@@ -841,12 +790,6 @@ h3.heading__ja {
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-
-.contact__item1 {
-}
-
-.contact__lead1 {
 }
 
 .contact__text {
@@ -968,12 +911,6 @@ h3.heading__ja {
   justify-content: center;
   margin-top: 32px;
   gap: 36px;
-}
-
-.footer__menu-item {
-}
-
-.footer__menu-link {
 }
 
 .footer__copyright {
