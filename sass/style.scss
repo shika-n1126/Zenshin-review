@@ -10,6 +10,23 @@ $breakpoints: (
   pc: "screen and (min-width: 768px)",
 );
 
+:root {
+  --color-spring-green-7930: rgba(185, 216, 203, 0.3);
+  --color-spring-green-790: rgba(185, 216, 203, 0);
+  --color-spring-green-6922: rgba(157, 196, 180, 0.22);
+  --color-spring-green-690: rgba(157, 196, 180, 0);
+  --color-grey-9355: rgba(232, 243, 238, 0.55);
+  --color-grey-930: rgba(232, 243, 238, 0);
+  --color-spring-green-7920: rgba(185, 216, 203, 0.2);
+  --color-grey-96: #f9f6f2;
+
+  /* contact */
+  --color-spring-green-7926: rgba(185, 216, 203, 0.26);
+  --color-spring-green-6920: rgba(157, 196, 180, 0.2);
+  --color-spring-green-8938: rgba(221, 233, 227, 0.38);
+  --color-spring-green-890: rgba(221, 233, 227, 0);
+}
+
 @use "sass:map";
 
 @mixin mq($breakpoint: pc) {
@@ -237,25 +254,25 @@ h3.heading__ja {
   background:
     radial-gradient(
       45% 130% at -5% 55%,
-      var(--color-spring-green-7930, rgba(185, 216, 203, 0.3)) 0%,
-      var(--color-spring-green-790, rgba(185, 216, 203, 0)) 52%
+      var(--color-spring-green-7930) 0%,
+      var(--color-spring-green-790) 52%
     ),
     radial-gradient(
       130% 55% at 108% 22%,
-      var(--color-spring-green-6922, rgba(157, 196, 180, 0.22)) 0%,
-      var(--color-spring-green-690, rgba(157, 196, 180, 0)) 50%
+      var(--color-spring-green-6922) 0%,
+      var(--color-spring-green-690) 50%
     ),
     radial-gradient(
       55% 75% at 48% -12%,
-      var(--color-grey-9355, rgba(232, 243, 238, 0.55)) 0%,
-      var(--color-grey-930, rgba(232, 243, 238, 0)) 45%
+      var(--color-grey-9355) 0%,
+      var(--color-grey-930) 45%
     ),
     radial-gradient(
       65% 40% at 68% 112%,
-      var(--color-spring-green-7920, rgba(185, 216, 203, 0.2)) 0%,
-      var(--color-spring-green-790, rgba(185, 216, 203, 0)) 40%
+      var(--color-spring-green-7920) 0%,
+      var(--color-spring-green-790) 40%
     ),
-    var(--color-grey-96, #f9f6f2);
+    var(--color-grey-96);
 }
 
 .foryou__cards {
@@ -762,20 +779,20 @@ h3.heading__ja {
   background:
     radial-gradient(
       50% 100% at 5% 60%,
-      var(--color-spring-green-7926, rgba(185, 216, 203, 0.26)) 0%,
-      var(--color-spring-green-790, rgba(185, 216, 203, 0)) 55%
+      var(--color-spring-green-7926) 0%,
+      var(--color-spring-green-790) 55%
     ),
     radial-gradient(
       100% 60% at 95% 18%,
-      var(--color-spring-green-6920, rgba(157, 196, 180, 0.2)) 0%,
-      var(--color-spring-green-690, rgba(157, 196, 180, 0)) 50%
+      var(--color-spring-green-6920) 0%,
+      var(--color-spring-green-690) 50%
     ),
     radial-gradient(
       45% 70% at 52% 112%,
-      var(--color-spring-green-8938, rgba(221, 233, 227, 0.38)) 0%,
-      var(--color-spring-green-890, rgba(221, 233, 227, 0)) 45%
+      var(--color-spring-green-8938) 0%,
+      var(--color-spring-green-890) 45%
     ),
-    var(--color-grey-96, #f9f6f2);
+    var(--color-grey-96);
 }
 
 .contact__inner {
