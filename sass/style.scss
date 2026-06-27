@@ -74,7 +74,6 @@ body {
   background: #06c755;
   font-size: 15px;
   color: #fff;
-  align-items: center;
   transition:
     box-shadow 0.3s,
     background-color 0.3s,
@@ -374,7 +373,6 @@ body {
 .about__card {
   padding: 40px 28px;
   background: #f5f9f7;
-  // border-radius: 2px;
 
   @include mq(pc) {
     padding: 44px 64px;
