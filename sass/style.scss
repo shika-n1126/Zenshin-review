@@ -984,6 +984,7 @@ h3.heading__ja {
 
 .line-register__button {
   position: fixed;
+  z-index: 1000;
   right: 17px;
   bottom: 17px;
   display: flex;
